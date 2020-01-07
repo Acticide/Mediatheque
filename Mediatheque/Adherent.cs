@@ -7,6 +7,7 @@ namespace Mediatheque
     public class Adherent
     {
         protected static int compteur = 0;
+
         private int id;
         private string nom;
         private string prenom;
