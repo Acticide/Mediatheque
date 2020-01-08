@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Mediatheque
 {
-    class Oeuvre
+    public abstract class Oeuvre
     {
         private string titre;
         private string auteur;
@@ -12,8 +12,6 @@ namespace Mediatheque
         private string resume;
 
         private int nbexemplaire;
-
-
 
         public string Titre { get => titre; set => titre = value; }
         public string Auteur { get => auteur; set => auteur = value; }
@@ -24,7 +22,6 @@ namespace Mediatheque
 
         public Oeuvre (string titre, string auteur, string editeur, string resume, int nbexemplaire)
         {
-
             Titre = titre;
             Auteur = auteur;
             Editeur = editeur;
