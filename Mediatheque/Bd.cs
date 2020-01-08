@@ -6,5 +6,13 @@ namespace Mediatheque
 {
     public class Bd : Oeuvre
     {
+        string dessinateur;
+
+        public string Dessinateur { get => dessinateur; set => dessinateur = value; }
+
+        public Bd(string t, string a, string e, string r, int nbexemplaire, string d) : base(t,a,e,r,nbexemplaire)
+        {
+            Dessinateur = d;
+        }
     }
 }
