@@ -14,5 +14,10 @@ namespace Mediatheque
         {
             Dessinateur = d;
         }
+
+        public override void Afficher()
+        {
+            Console.WriteLine("Titre : " + Titre + " Auteur : " + Auteur + " Editeur : " + Editeur + " Dessinateur : " + Dessinateur + " Resume : " + Resume + "Nombres d'exemplaire disponible : " + Nbexemplaire);
+        }
     }
 }

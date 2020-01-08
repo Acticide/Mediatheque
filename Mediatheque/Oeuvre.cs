@@ -28,5 +28,7 @@ namespace Mediatheque
             Resume = resume;
             Nbexemplaire = nbexemplaire;
         }
+
+        public abstract void Afficher();
     }
 }

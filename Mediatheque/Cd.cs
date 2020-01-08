@@ -14,5 +14,10 @@ namespace Mediatheque
         {
             Nbchanson = nbchanson;
         }
+
+        public override void Afficher()
+        {
+            Console.WriteLine("Titre : " + Titre + " Auteur : " + Auteur + " Editeur : " + Editeur + " Resume : " + Resume + "Nombres d'exemplaire disponible : " + Nbexemplaire + " Nombre de chansons : " + Nbchanson);
+        }
     }
 }

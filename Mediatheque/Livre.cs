@@ -14,5 +14,10 @@ namespace Mediatheque
         {
             Nbpages = nbpages;
         }
+
+        public override void Afficher()
+        {
+            Console.WriteLine("Titre : " + Titre + " Auteur : " + Auteur + " Editeur : " + Editeur + " Resume : " + Resume + "Nombres d'exemplaire disponible : " + Nbexemplaire + "Taille du livre :" + Nbpages);
+        }
     }
 }
